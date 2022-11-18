@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestRepeatButton"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Height="450"
+        Width="800">
     <Grid>
+        <RepeatButton DockPanel.Dock="Top"
+                      Delay="500"
+                      Interval="100"
+                      Click="Increase"
+                      Margin="219,217,422,83">
+            Increase
+        </RepeatButton>
 
+        <TextBlock Name="valueText"
+                   DockPanel.Dock="Top"
+                   TextAlignment="Center"
+                   FontSize="16"
+                   Margin="42,29,400,354">
+  0
+        </TextBlock>
+
+        <RepeatButton DockPanel.Dock="Top"
+                      Delay="500"
+                      Interval="100"
+                      Click="Decrease"
+                      Margin="690,55,10,265">
+            Decrease
+        </RepeatButton>
+        <Button Content="Button"
+                HorizontalAlignment="Left"
+                Height="49"
+                Margin="42,138,0,0"
+                VerticalAlignment="Top"
+                Width="146"
+                Click="Button_Click" />
     </Grid>
 </Window>

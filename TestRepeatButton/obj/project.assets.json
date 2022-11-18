@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anocha\\Desktop\\TestRepeatButton\\TestRepeatButton\\TestRepeatButton.csproj",
+      "projectUniqueName": "D:\\ServerGithub\\Test\\TestRepeatButton\\TestRepeatButton\\TestRepeatButton.csproj",
       "projectName": "TestRepeatButton",
-      "projectPath": "C:\\Users\\anocha\\Desktop\\TestRepeatButton\\TestRepeatButton\\TestRepeatButton.csproj",
+      "projectPath": "D:\\ServerGithub\\Test\\TestRepeatButton\\TestRepeatButton\\TestRepeatButton.csproj",
       "packagesPath": "C:\\Users\\anocha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anocha\\Desktop\\TestRepeatButton\\TestRepeatButton\\obj\\",
+      "outputPath": "D:\\ServerGithub\\Test\\TestRepeatButton\\TestRepeatButton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anocha\\AppData\\Roaming\\NuGet\\NuGet.Config",

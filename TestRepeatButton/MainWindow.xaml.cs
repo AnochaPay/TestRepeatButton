@@ -21,5 +21,23 @@ namespace TestRepeatButton {
         public MainWindow() {
             InitializeComponent();
         }
+
+        void Increase(object sender, RoutedEventArgs e) {
+            Int32 Num = Convert.ToInt32(valueText.Text);
+
+            valueText.Text = ((Num + 1).ToString());
+        }
+
+        void Decrease(object sender, RoutedEventArgs e) {
+            Int32 Num = Convert.ToInt32(valueText.Text);
+
+            valueText.Text = ((Num - 1).ToString());
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e) {
+            Int32 Num = Convert.ToInt32(valueText.Text);
+
+            valueText.Text = ((Num + 1).ToString());
+        }
     }
 }

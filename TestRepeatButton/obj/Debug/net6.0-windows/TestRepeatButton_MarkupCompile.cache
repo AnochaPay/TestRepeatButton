@@ -1,5 +1,5 @@
 ﻿TestRepeatButton
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\ServerGithub\Test\TestRepeatButton\TestRepeatButton\App.xaml
 11407045341
 
-5-1769282052
+3-1233169557
 1941645785384
 MainWindow.xaml;
 
